@@ -43,7 +43,7 @@
   function setQuiz() {
     isAnswered = false;
 
-    question.textContent = quizSet[currentNum].q;
+    question.textContent = "No."+(currentNum+1)+" "+quizSet[currentNum].q;
 
     while (choices.firstChild) {
       choices.removeChild(choices.firstChild);
