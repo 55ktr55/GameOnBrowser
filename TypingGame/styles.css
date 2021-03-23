@@ -1,0 +1,16 @@
+body{
+  margin-top: 40px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  user-select: none;
+}
+
+#target{
+  font-size: 48px;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+}
+
+.falseColor{
+  color: tomato;
+}
